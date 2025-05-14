@@ -2,25 +2,25 @@
 
 namespace App\Controllers;
 
-use App\Models\M_kendaraan;
+use App\Models\M_properti;
 
-class Data_kendaraan extends BaseController
+class Data_properti extends BaseController
 {
   
-    public function kendaraan()
+    public function properti()
     {
 
         echo view('Backend/Template/header');
         echo view('Backend/Template/sidebar');
-        echo view('Backend/aset/kendaraan/data_kendaraan');
+        echo view('Backend/aset/properti/data_properti');
         echo view('Backend/Template/footer');
     }
-    public function tambah_kendaraan()
+    public function tambah_properti()
     {
 
         echo view('Backend/Template/header');
         echo view('Backend/Template/sidebar');
-        echo view('Backend/aset/kendaraan/tambah_kendaraan');
+        echo view('Backend/aset/properti/tambah_properti');
         echo view('Backend/Template/footer');
     }
 }

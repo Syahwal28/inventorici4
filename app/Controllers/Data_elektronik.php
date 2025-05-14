@@ -2,25 +2,25 @@
 
 namespace App\Controllers;
 
-use App\Models\M_kendaraan;
+use App\Models\M_elektronik;
 
-class Data_kendaraan extends BaseController
+class Data_elektronik extends BaseController
 {
   
-    public function kendaraan()
+    public function elektronik()
     {
 
         echo view('Backend/Template/header');
         echo view('Backend/Template/sidebar');
-        echo view('Backend/aset/kendaraan/data_kendaraan');
+        echo view('Backend/aset/elektronik/data_elektronik');
         echo view('Backend/Template/footer');
     }
-    public function tambah_kendaraan()
+    public function tambah_elektronik()
     {
 
         echo view('Backend/Template/header');
         echo view('Backend/Template/sidebar');
-        echo view('Backend/aset/kendaraan/tambah_kendaraan');
+        echo view('Backend/aset/elektronik/tambah_elektronik');
         echo view('Backend/Template/footer');
     }
 }
